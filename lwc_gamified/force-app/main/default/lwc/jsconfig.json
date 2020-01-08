@@ -2,7 +2,23 @@
     "compilerOptions": {
         "experimentalDecorators": true,
         "baseUrl": ".",
-        "paths": {}
+        "paths": {
+            "c/dive_Root": [
+                "dive_Root/dive_Root.js"
+            ],
+            "c/dive_Container": [
+                "dive_Container/dive_Container.js"
+            ],
+            "c/dive_Avatar": [
+                "dive_Avatar/dive_Avatar.js"
+            ],
+            "c/dive_ClientSatisfaction": [
+                "dive_ClientSatisfaction/dive_ClientSatisfaction.js"
+            ],
+            "c/dive_AvResolutionTime": [
+                "dive_AvResolutionTime/dive_AvResolutionTime.js"
+            ]
+        }
     },
     "include": [
         "**/*",
